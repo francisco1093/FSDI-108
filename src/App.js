@@ -2,18 +2,21 @@ import "./App.css";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import QuantiryPicker from "./components/quantiryPicker";
+import "bootstrap/dist/js/bootstrap.bundle";
+import Catalog from "./components/catalog"; 
 
 function App() {
   return (
     <div className="App">
+      
+      <h1 className="App-title">Sport Fran</h1>
       <NavBar></NavBar>
-      <h1>Hello from react!</h1>
-      <button className="btn btn-primary">Test</button>
-      <QuantiryPicker></QuantiryPicker>
+      <Catalog></Catalog>
       <Footer></Footer>
     </div>
-  );
+  ); 
+
+  
 }
 
 export default App;

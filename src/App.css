@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url("grass.jpg");
 }
 
 .App-logo {
@@ -26,6 +27,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-title{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
 }
 
 @keyframes App-logo-spin {
